@@ -281,7 +281,7 @@ class GameManager(commands.Cog):
             return (0, False)
         
         # Make decision
-        score = session.make_decision(session.current_decision - 1, choice)
+        score = session.make_decision(session.current_decision, choice)
         
         # Record decision in database
         database.record_decision(

@@ -36,8 +36,8 @@ intents = discord.Intents.default()
 intents.message_content = True
 intents.members = True
 
-# Create bot instance with command prefix
-bot = commands.Bot(command_prefix='!', intents=intents)
+# Create bot instance with command prefix and disable default help command
+bot = commands.Bot(command_prefix='!', intents=intents, help_command=None)
 
 # List of cogs to load
 initial_cogs = [

@@ -601,6 +601,9 @@ async def send_decision(bot, session, decision_number: int):
     decision = session.character.get_decision(decision_number)
     if not decision:
         logger.error(f"Decision {decision_number} not found for character {session.character.id}")
+        # If the decision doesn't exist, the game is completed
+        # Show the final results instead of returning
+        await show_game_results(bot, session)
         return
     
     # Get the channel
