@@ -33,16 +33,14 @@ class FeedbackModal(ui.Modal):
         self.session_id = session_id
         self.game_manager_cog = game_manager_cog
         
-        # Add rating input (dropdown)
-        self.rating = ui.Select(
-            placeholder="Rate your experience",
-            options=[
-                discord.SelectOption(label="1 - Poor", value="1"),
-                discord.SelectOption(label="2 - Fair", value="2"),
-                discord.SelectOption(label="3 - Good", value="3"),
-                discord.SelectOption(label="4 - Very Good", value="4"),
-                discord.SelectOption(label="5 - Excellent", value="5")
-            ]
+        # Add rating input (text input)
+        self.rating = ui.TextInput(
+            label="Rating (1-5)",
+            placeholder="Enter a number from 1 to 5 (1=Poor, 5=Excellent)",
+            required=True,
+            min_length=1,
+            max_length=1,
+            default="5"
         )
         self.add_item(self.rating)
         
@@ -63,7 +61,12 @@ class FeedbackModal(ui.Modal):
             interaction: The Discord interaction
         """
         # Get rating value
-        rating_value = int(self.rating.values[0]) if self.rating.values else 3
+        try:
+            rating_value = int(self.rating.value)
+            # Ensure rating is between 1 and 5
+            rating_value = max(1, min(5, rating_value))
+        except (ValueError, TypeError):
+            rating_value = 3  # Default to 3 if invalid input
         
         # Get comments
         comments_value = self.comments.value if self.comments.value else None
