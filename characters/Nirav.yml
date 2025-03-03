@@ -1,0 +1,133 @@
+name: "Nirav Modi"
+title: "The Fugitive Diamond Tycoon"
+starting_year: 2008
+initial_capital: 1000000
+key_principles:
+  - "Luxury branding for global elites"
+  - "High-profile endorsements"
+  - "Borrow against future sales"
+  - "Exclusive boutique experiences"
+  - "Build complex financial networks"
+
+decisions:
+  1:
+    year: 2008
+    context: "You’ve entered the high-end diamond jewelry market, capitalizing on your family’s background in gems."
+    question: "How do you position your brand in a competitive market?"
+    choices:
+      a:
+        text: "Target mid-range buyers for quick volume sales"
+        outcome: "Steady but lacks the aura of exclusivity."
+        score: 50
+      b:
+        text: "Focus on ultra-luxury segment with unique designs"
+        outcome: "High brand value, recognized by celebrities."
+        score: 100
+      c:
+        text: "Launch an online-only jewelry platform"
+        outcome: "Cost-effective but less appeal for high-spending clientele."
+        score: 40
+    correct_choice: "b"
+    historical_context: "Nirav Modi built a reputation for high-end boutiques and celebrity endorsements."
+
+  2:
+    year: 2010
+    context: "Your luxury brand gains traction in India. Expansion into global markets beckons."
+    question: "How do you fund international expansion?"
+    choices:
+      a:
+        text: "Secure large bank loans without robust collateral"
+        outcome: "Enables fast scaling but risky financial structure."
+        score: 70
+      b:
+        text: "Seek private equity or venture capital"
+        outcome: "Shared control, but prudent financial governance."
+        score: 90
+      c:
+        text: "Grow slowly using retained earnings"
+        outcome: "Safer, but might miss global brand momentum."
+        score: 60
+    correct_choice: "b"
+    historical_context: "Nirav Modi later relied heavily on bank finances, which became a central issue in his fraud case."
+
+  3:
+    year: 2014
+    context: "Global awareness is high. You’re opening boutiques in major fashion capitals, but cash flow is tight."
+    question: "How do you handle rising operational costs?"
+    choices:
+      a:
+        text: "Take short-term letters of undertaking (LoUs) from banks"
+        outcome: "Provides quick funds but questionable if not disclosed properly."
+        score: 30
+      b:
+        text: "Downsize expansion plans temporarily"
+        outcome: "Preserves liquidity but slows brand presence."
+        score: 70
+      c:
+        text: "Attract new equity investors for sustainable funding"
+        outcome: "Dilutes ownership but stabilizes long-term finances."
+        score: 100
+    correct_choice: "c"
+    historical_context: "Nirav Modi allegedly misused LoUs from Indian banks, leading to the infamous scam."
+
+  4:
+    year: 2016
+    context: "Regulators start scrutinizing large borrowings. The press highlights your rapid expansion and rising debts."
+    question: "What’s your approach to growing regulatory pressures?"
+    choices:
+      a:
+        text: "Cooperate fully, restructure debts, and ensure transparency"
+        outcome: "Could preserve brand image and avoid legal troubles."
+        score: 100
+      b:
+        text: "Move financial operations offshore to more lenient jurisdictions"
+        outcome: "May hide problems temporarily but heightens risk."
+        score: 40
+      c:
+        text: "Ignore warnings and maintain aggressive expansion"
+        outcome: "Short-term growth but severe legal repercussions if exposed."
+        score: 20
+    correct_choice: "a"
+    historical_context: "Nirav Modi allegedly moved money through complex channels, attracting legal scrutiny."
+
+  5:
+    year: 2018
+    context: "A multi-crore fraud case emerges around your bank guarantees. Investigations accelerate, and you face a major crisis."
+    question: "How do you respond to the fraud allegations?"
+    choices:
+      a:
+        text: "Remain in India, contest charges openly"
+        outcome: "Legal accountability but potential for negotiated resolution."
+        score: 70
+      b:
+        text: "Flee the country while continuing to deny wrongdoing"
+        outcome: "Immediate evasion but leads to extradition battles and brand destruction."
+        score: 20
+      c:
+        text: "Cooperate with authorities and offer restitution plan"
+        outcome: "May mitigate sentencing and partial brand salvage."
+        score: 100
+    correct_choice: "c"
+    historical_context: "Nirav Modi fled India in 2018, was eventually arrested in the UK, and battled extradition."
+
+analysis_templates:
+  excellent:
+    text: "You balanced luxury branding with transparent financial management, avoiding the pitfalls of hidden liabilities."
+    principles:
+      - "Maintain ethical financing strategies"
+      - "Transparency with lenders builds long-term credibility"
+      - "Sustainable growth beats rapid, debt-fueled expansion"
+
+  good:
+    text: "Your brand-building was exceptional, but some financial shortcuts risked credibility. A stronger compliance framework was needed."
+    principles:
+      - "Scale up responsibly with equity over unclear debt"
+      - "Proactively engage with regulators and banks"
+      - "Safeguard brand equity by mitigating financial risks"
+
+  needs_improvement:
+    text: "You repeated the real mistakes—overreliance on questionable funding and fleeing legal accountability. Correct these to sustain long-term success."
+    principles:
+      - "Honest financing is crucial for luxury brands"
+      - "Legal evasion erodes trust irreparably"
+      - "Build healthy capital structures before rapid expansion"

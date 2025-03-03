@@ -1,0 +1,132 @@
+name: "Warren Buffett"
+title: "Oracle of Omaha"
+starting_year: 1956
+initial_capital: 100000
+key_principles:
+  - "Never lose money"
+  - "Be fearful when others are greedy, and greedy when others are fearful"
+  - "Price is what you pay, value is what you get"
+  - "Our favorite holding period is forever"
+
+decisions:
+  1:
+    year: 1963
+    context: "American Express faces massive losses due to the 'Salad Oil Scandal'. The stock has plummeted from $65 to $35."
+    question: "What would you do with American Express stock during this crisis?"
+    choices:
+      a:
+        text: "Sell all holdings to minimize losses"
+        outcome: "Lost opportunity. AmEx recovered and became one of Berkshire's most profitable investments."
+        score: 30
+      b:
+        text: "Hold current position and wait for recovery"
+        outcome: "Moderate gains as stock recovered, but missed opportunity for greater returns."
+        score: 60
+      c:
+        text: "Invest heavily while stock price is low"
+        outcome: "Excellent decision. Buffett invested $13 million. By 2019, AmEx became worth over $18 billion."
+        score: 100
+    correct_choice: "c"
+    historical_context: "Buffett recognized AmEx's strong brand and business model would survive the scandal."
+
+  2:
+    year: 1967
+    context: "A textile company called Berkshire Hathaway is struggling, but has excess cash flow."
+    question: "How would you utilize Berkshire's textile mill cash flows?"
+    choices:
+      a:
+        text: "Reinvest in modernizing textile operations"
+        outcome: "Poor choice. Textile industry continued declining despite modernization."
+        score: 30
+      b:
+        text: "Use cash to acquire insurance companies"
+        outcome: "Brilliant move. Insurance float provided billions for investments."
+        score: 100
+      c:
+        text: "Sell the company's assets"
+        outcome: "Moderate choice. Would have missed insurance float opportunity."
+        score: 50
+    correct_choice: "b"
+    historical_context: "Buffett used insurance float to fuel Berkshire's remarkable growth."
+
+  3:
+    year: 1973
+    context: "The stock market is crashing during the 1973-1974 bear market. The Washington Post stock is available at $20 per share."
+    question: "What's your investment decision regarding Washington Post?"
+    choices:
+      a:
+        text: "Wait for market to stabilize before investing"
+        outcome: "Missed opportunity. Stock price rose significantly after market recovery."
+        score: 40
+      b:
+        text: "Buy a small position to test waters"
+        outcome: "Gained some profit but didn't maximize opportunity."
+        score: 60
+      c:
+        text: "Invest heavily at the discounted price"
+        outcome: "Excellent. $10 million investment became worth over $1.1 billion."
+        score: 100
+    correct_choice: "c"
+    historical_context: "Buffett recognized the Post's intrinsic value was $400 million, while market cap was only $100 million."
+
+  4:
+    year: 1988
+    context: "Coca-Cola stock is trading at seemingly high P/E ratios, but shows strong brand value."
+    question: "What's your investment strategy for Coca-Cola?"
+    choices:
+      a:
+        text: "Avoid due to high valuation metrics"
+        outcome: "Missed one of the greatest investment opportunities."
+        score: 30
+      b:
+        text: "Make small, periodic investments"
+        outcome: "Gained some exposure but didn't maximize returns."
+        score: 60
+      c:
+        text: "Invest $1 billion+ in Coca-Cola stock"
+        outcome: "Outstanding. Investment grew to over $20 billion."
+        score: 100
+    correct_choice: "c"
+    historical_context: "Buffett recognized Coca-Cola's global brand power and growth potential."
+
+  5:
+    year: 2008
+    context: "Global Financial Crisis is causing market panic. Major banks are failing."
+    question: "How would you respond to the 2008 financial crisis?"
+    choices:
+      a:
+        text: "Sell stocks to preserve capital"
+        outcome: "Missed the recovery and compound interest opportunity."
+        score: 20
+      b:
+        text: "Hold current positions and wait"
+        outcome: "Preserved capital but missed opportunity to buy excellent companies cheaply."
+        score: 50
+      c:
+        text: "Invest heavily in American companies"
+        outcome: "Excellent. Market recovered strongly and investments multiplied in value."
+        score: 100
+    correct_choice: "c"
+    historical_context: "Buffett wrote his famous 'Buy American. I Am.' NY Times op-ed during this crisis."
+
+analysis_templates:
+  excellent:
+    text: "Outstanding! Like Warren Buffett, you demonstrated the courage to be greedy when others are fearful. Your decisions aligned perfectly with value investing principles and long-term thinking."
+    principles:
+      - "You showed understanding of intrinsic value vs market price"
+      - "Demonstrated courage during market panics"
+      - "Focused on business fundamentals over market sentiment"
+
+  good:
+    text: "Good performance! You showed some key Buffett traits but occasionally let market fear influence decisions. Remember: 'Price is what you pay, value is what you get.'"
+    principles:
+      - "Generally good understanding of value investing"
+      - "Some room for improvement in crisis decision-making"
+      - "Consider longer holding periods"
+
+  needs_improvement:
+    text: "There's room for improvement. Study Buffett's principles more deeply: focus on intrinsic value, think long-term, and be fearful when others are greedy, and greedy when others are fearful."
+    principles:
+      - "Review the concept of intrinsic value"
+      - "Work on emotional discipline during market volatility"
+      - "Focus more on business fundamentals"

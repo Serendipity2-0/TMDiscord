@@ -1,0 +1,134 @@
+name: "Harshad Mehta"
+title: "The Big Bull"
+starting_year: 1984
+initial_capital: 5000
+key_principles:
+  - "Leverage market loopholes aggressively"
+  - "Speculate boldly to maximize short-term gains"
+  - "Use borrowed funds to fuel trading"
+  - "Capitalize on investor euphoria"
+  - "Maintain an aura of success"
+
+decisions:
+  1:
+    year: 1984
+    context: "You begin as a jobber (junior stockbroker) on Dalal Street with limited capital. You’re looking to make a name quickly."
+    question: "How do you establish yourself?"
+    choices:
+      a:
+        text: "Stick to safe blue-chip trades"
+        outcome: "Slow and steady returns, but little buzz."
+        score: 50
+      b:
+        text: "Take bigger positions in mid-cap and penny stocks"
+        outcome: "Higher risk but quicker recognition if they rally."
+        score: 100
+      c:
+        text: "Diversify into government bonds for stability"
+        outcome: "Steady but doesn’t raise your profile."
+        score: 40
+    correct_choice: "b"
+    historical_context: "Harshad Mehta gained attention by trading aggressively in lesser-known stocks, generating quick profits."
+
+  2:
+    year: 1988
+    context: "You have some success. Banks and big brokers trust you to handle large trades. The 'Ready Forward' (RF) deals are a potential gold mine."
+    question: "How do you use RF deals in your trading strategy?"
+    choices:
+      a:
+        text: "Comply strictly with legal guidelines for moderate returns"
+        outcome: "Avoids trouble but misses massive profit potential."
+        score: 60
+      b:
+        text: "Manipulate the RF system to access huge capital without proper collateral"
+        outcome: "Allows you to inflate positions quickly, but very high legal risk."
+        score: 100
+      c:
+        text: "Avoid RF deals and focus on standard market trades"
+        outcome: "Missed the chance to leverage big money flows."
+        score: 30
+    correct_choice: "b"
+    historical_context: "Harshad used bank receipts to secure large sums of money, fueling his market manipulation."
+
+  3:
+    year: 1990
+    context: "You’re nicknamed ‘The Big Bull.’ Stocks you touch skyrocket, and small investors follow your lead blindly."
+    question: "How do you handle your celebrity status in the market?"
+    choices:
+      a:
+        text: "Maintain a low profile to avoid regulatory scrutiny"
+        outcome: "Keeps you safe but forgoes hype that can drive share prices."
+        score: 40
+      b:
+        text: "Publicly tout certain stocks, drive up prices, and cash out"
+        outcome: "Massive short-term gains through pump-and-dump tactics."
+        score: 100
+        V1Lesson: "Rapid growth can be fueled by market sentiment, but it carries immense risk."
+      c:
+        text: "Encourage diversification among investors"
+        outcome: "Sustainable for the market but misses the highs of a bull run."
+        score: 60
+    correct_choice: "b"
+    historical_context: "Harshad Mehta famously took positions in ACC and other stocks, pushing them to unprecedented highs."
+
+  4:
+    year: 1992
+    context: "A journalist investigation and RBI scrutiny reveal irregularities in your transactions with banks. Media frenzy begins."
+    question: "What’s your immediate response to the scandal?"
+    choices:
+      a:
+        text: "Fully cooperate with investigators and disclose all trades"
+        outcome: "Could mitigate legal blowback, but reveals the entire scheme."
+        score: 80
+      b:
+        text: "Deny wrongdoing, continue to argue that your trades are legitimate"
+        outcome: "Buys time but deepens public suspicion and regulatory wrath."
+        score: 40
+      c:
+        text: "Attempt to settle quietly with banks and regulators"
+        outcome: "Might keep some details hidden but still under intense scrutiny."
+        score: 60
+    correct_choice: "a"
+    historical_context: "Harshad Mehta mostly maintained his innocence publicly, which fueled a protracted legal battle and tarnished his legacy."
+
+  5:
+    year: 1993
+    context: "Regulatory reforms are underway. Your assets are frozen, and you face multiple court cases."
+    question: "How do you rebuild or pivot given your uncertain future?"
+    choices:
+      a:
+        text: "Collaborate with authorities and be transparent about the market’s loopholes"
+        outcome: "Could position you as a reformed expert, potentially reducing prison time."
+        score: 100
+      b:
+        text: "Attempt to launch new schemes outside the stock market"
+        outcome: "High risk, further erodes credibility if discovered."
+        score: 30
+      c:
+        text: "Hire top lawyers and fight every charge aggressively"
+        outcome: "Long legal battles with an uncertain outcome."
+        score: 60
+    correct_choice: "a"
+    historical_context: "Harshad Mehta continued to defend himself, often looking for ways to return to the market, but never restored his prior standing."
+
+analysis_templates:
+  excellent:
+    text: "You leveraged financial instruments intelligently but kept clear ethical boundaries, maintaining your market status without legal jeopardy."
+    principles:
+      - "Transparency is vital when using complex financial products"
+      - "Short-term wins must be balanced with legal and ethical considerations"
+      - "Market trust is an invaluable currency—don’t squander it"
+
+  good:
+    text: "You capitalized on loopholes effectively but took substantial legal risks. Greater compliance could have protected long-term success."
+    principles:
+      - "Aggressive tactics can yield big gains but attract scrutiny"
+      - "Ethical conduct fosters sustained investor trust"
+      - "Over-reliance on borrowed capital can lead to collapse"
+
+  needs_improvement:
+    text: "Your choices repeated the historical failings—unchecked leverage and market manipulation. A more transparent and ethical approach was needed."
+    principles:
+      - "Regulatory frameworks catch up with exploitative tactics"
+      - "Protecting public trust matters more than quick profits"
+      - "Avoid becoming the scapegoat for systemic loopholes"

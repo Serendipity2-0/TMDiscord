@@ -1,0 +1,174 @@
+name: "Rakesh Jhunjhunwala"
+title: "India's Warren Buffett"
+starting_year: 1985
+initial_capital: 5000
+key_principles:
+  - "Invest in businesses you understand"
+  - "Be fearless but not careless"
+  - "Respect the market"
+  - "Think long-term and be patient"
+  - "Look for growth at reasonable price"
+
+decisions:
+  1:
+    year: 1985
+    context: "You're a fresh chartered accountant with Rs. 5,000 in capital. Tata Tea shares are available at Rs. 43."
+    question: "What would be your first major investment move?"
+    choices:
+      a:
+        text: "Invest small amounts in multiple blue-chip stocks"
+        outcome: "Missed the massive opportunity in Tata Tea which rose to Rs. 143 in 3 months."
+        score: 40
+      b:
+        text: "Borrow money and invest heavily in Tata Tea"
+        outcome: "Excellent! This was RJ's first big win. He borrowed money and made Rs. 20-25 lakh."
+        score: 100
+      c:
+        text: "Wait and save more capital before investing"
+        outcome: "Lost the opportunity to leverage early market insights."
+        score: 30
+    correct_choice: "b"
+    historical_context: "RJ borrowed money from his brother and made his first big investment in Tata Tea."
+
+  2:
+    year: 1986
+    context: "Sesa Goa, an iron ore company, is showing strong fundamentals but market sentiment is negative."
+    question: "How would you approach this opportunity?"
+    choices:
+      a:
+        text: "Avoid due to negative market sentiment"
+        outcome: "Missed multi-bagger returns as stock rose from Rs. 28 to Rs. 2200."
+        score: 20
+      b:
+        text: "Take a small position to test waters"
+        outcome: "Gained some profit but didn't maximize the opportunity."
+        score: 50
+      c:
+        text: "Invest heavily despite market sentiment"
+        outcome: "Perfect! The stock became one of RJ's earliest multi-baggers."
+        score: 100
+    correct_choice: "c"
+    historical_context: "This investment showcased RJ's ability to spot value when others were fearful."
+
+  3:
+    year: 1989
+    context: "You notice Lupin Ltd, a pharmaceutical company, trading at low valuations despite good fundamentals."
+    question: "What's your investment strategy for Lupin?"
+    choices:
+      a:
+        text: "Invest a significant portion of portfolio"
+        outcome: "Excellent! Lupin became a multi-bagger investment over the years."
+        score: 100
+      b:
+        text: "Make small periodic investments"
+        outcome: "Moderate gains but missed the full potential of the opportunity."
+        score: 60
+      c:
+        text: "Skip due to competitive pharma market"
+        outcome: "Missed one of the best pharma sector investments of the decade."
+        score: 30
+    correct_choice: "a"
+    historical_context: "RJ's investment in Lupin showcased his ability to spot undervalued companies with strong growth potential."
+
+  4:
+    year: 2003
+    context: "Titan Company (then Titan Industries) is available at Rs. 3 per share, but retail and luxury sectors are struggling."
+    question: "How would you view Titan as an investment opportunity?"
+    choices:
+      a:
+        text: "Avoid luxury retail during economic slowdown"
+        outcome: "Missed legendary returns as Titan became one of India's best wealth creators."
+        score: 20
+      b:
+        text: "Take small position due to sector risks"
+        outcome: "Gained some upside but missed the massive wealth creation opportunity."
+        score: 50
+      c:
+        text: "Invest heavily seeing long-term potential"
+        outcome: "Outstanding! Titan became RJ's largest and most successful investment."
+        score: 100
+    correct_choice: "c"
+    historical_context: "RJ recognized Titan's brand value and growth potential in India's evolving consumer market."
+
+  5:
+    year: 2008
+    context: "Global Financial Crisis has caused panic selling across markets. Indian stocks are down 50%+."
+    question: "How would you respond to the market crash?"
+    choices:
+      a:
+        text: "Sell stocks to preserve capital"
+        outcome: "Missed the recovery that followed, leading to significant opportunity loss."
+        score: 20
+      b:
+        text: "Hold current positions and wait"
+        outcome: "Protected capital but missed chance to buy quality stocks at low prices."
+        score: 50
+      c:
+        text: "Buy aggressively during the panic"
+        outcome: "Excellent! This strategy led to massive gains in the recovery."
+        score: 100
+    correct_choice: "c"
+    historical_context: "RJ famously said 'tough times don't last, tough people do' during this crisis."
+
+  6:
+    year: 2013
+    context: "You spot potential in Escorts Ltd despite its struggles and negative market sentiment."
+    question: "What would be your approach to Escorts?"
+    choices:
+      a:
+        text: "Avoid due to company's struggles"
+        outcome: "Missed multi-bagger returns as stock rose from Rs. 85 to Rs. 1800+."
+        score: 30
+      b:
+        text: "Take moderate position with stop-loss"
+        outcome: "Gained some upside but didn't maximize the opportunity."
+        score: 60
+      c:
+        text: "Build large position seeing turnaround potential"
+        outcome: "Perfect! The stock became another multi-bagger in RJ's portfolio."
+        score: 100
+    correct_choice: "c"
+    historical_context: "RJ's investment in Escorts showcased his ability to spot turnaround stories."
+
+  7:
+    year: 2020
+    context: "COVID-19 pandemic has caused market crash. Your airline investment Akasa Air is deeply affected."
+    question: "How would you handle your airline investment during the pandemic?"
+    choices:
+      a:
+        text: "Exit aviation sector due to uncertainties"
+        outcome: "Missed the recovery and future growth potential."
+        score: 30
+      b:
+        text: "Hold position but stop further investments"
+        outcome: "Moderate strategy but missed opportunity to average down."
+        score: 60
+      c:
+        text: "Double down on investment seeing long-term value"
+        outcome: "Excellent! Showed conviction in long-term aviation sector potential."
+        score: 100
+    correct_choice: "c"
+    historical_context: "Despite pandemic challenges, RJ maintained conviction in Indian aviation's growth story."
+
+analysis_templates:
+  excellent:
+    text: "Outstanding! Like Rakesh Jhunjhunwala, you showed remarkable conviction in your investment decisions and ability to spot value. Your choices demonstrated the perfect blend of courage and research-backed conviction."
+    principles:
+      - "Showed strong conviction in well-researched ideas"
+      - "Demonstrated ability to go against market sentiment"
+      - "Maintained long-term perspective during crises"
+      - "Recognized value in both growth and turnaround stories"
+
+  good:
+    text: "Good performance! You showed some key RJ traits but occasionally let market sentiment influence decisions. Remember his principle: 'Market is like a woman - always commanding, mysterious, unpredictable and volatile.'"
+    principles:
+      - "Generally good understanding of value investing"
+      - "Some room for improvement in conviction-based investing"
+      - "Consider being more aggressive when conviction is high"
+
+  needs_improvement:
+    text: "There's room for improvement. Study RJ's principles more deeply: focus on business understanding, have conviction in your research, and don't let market sentiment drive your decisions."
+    principles:
+      - "Work on developing stronger conviction"
+      - "Improve business analysis skills"
+      - "Learn to separate market noise from fundamental value"

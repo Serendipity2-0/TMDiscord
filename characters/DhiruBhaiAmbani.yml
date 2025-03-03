@@ -1,0 +1,134 @@
+name: "Dhirubhai Ambani"
+title: "The Pioneer of Indian Business"
+starting_year: 1966
+initial_capital: 15000
+key_principles:
+  - "Think big, think fast, think ahead"
+  - "Empower small investors"
+  - "Focus on backward integration"
+  - "Leverage relationships with the government"
+  - "Expand aggressively into new markets"
+
+decisions:
+  1:
+    year: 1966
+    context: "You’ve returned from Aden and established a small textile trading company called Reliance Commercial Corporation."
+    question: "What’s your first major strategic move?"
+    choices:
+      a:
+        text: "Operate as a small-scale yarn trader only"
+        outcome: "Stable but limited growth and brand recognition."
+        score: 50
+      b:
+        text: "Invest in a textile mill and create your own brand (Vimal)"
+        outcome: "Brand-building and control over production."
+        score: 100
+      c:
+        text: "Focus on exporting raw materials"
+        outcome: "Fewer domestic opportunities and brand presence."
+        score: 40
+    correct_choice: "b"
+    historical_context: "Dhirubhai Ambani established the Vimal brand and gained control over the value chain."
+
+  2:
+    year: 1977
+    context: "Reliance is going public. You can choose how to attract investors."
+    question: "How do you shape Reliance’s public offering strategy?"
+    choices:
+      a:
+        text: "Limit shares to a few large investors"
+        outcome: "Keeps control but misses opportunity to involve the masses."
+        score: 40
+      b:
+        text: "Offer shares widely to small investors"
+        outcome: "Broad investor base, fosters loyalty, and builds strong brand."
+        score: 100
+        V1Lesson: "Engaging common investors can become a powerful growth driver."
+      c:
+        text: "Postpone IPO until the company matures further"
+        outcome: "Missed chance to capitalize on market momentum."
+        score: 60
+    correct_choice: "b"
+    historical_context: "Reliance’s IPO was revolutionary in India, bringing equity culture to the masses."
+
+  3:
+    year: 1985
+    context: "Opportunities to expand into petrochemicals arise, but require massive capital expenditure."
+    question: "What’s your expansion strategy?"
+    choices:
+      a:
+        text: "Partner with foreign companies for capital and expertise"
+        outcome: "Shares risk but less independent control."
+        score: 70
+      b:
+        text: "Raise funds domestically through debentures and public markets"
+        outcome: "Maintains majority control and harnesses national investor enthusiasm."
+        score: 100
+      c:
+        text: "Stick to textiles only"
+        outcome: "Safer but misses out on the future petrochemicals boom."
+        score: 40
+    correct_choice: "b"
+    historical_context: "Reliance expanded into petrochemicals, becoming a market leader and transforming India’s industrial landscape."
+
+  4:
+    year: 1991
+    context: "India’s economy is liberalizing, and new government policies could shape the future of large conglomerates."
+    question: "How do you respond to economic liberalization?"
+    choices:
+      a:
+        text: "Lobby aggressively to maintain protective regulations"
+        outcome: "Short-term benefit but seen as anti-reform."
+        score: 60
+      b:
+        text: "Adapt quickly, embrace global partnerships and scale up"
+        outcome: "Opens new markets and drives innovation."
+        score: 100
+      c:
+        text: "Wait to see how policies unfold"
+        outcome: "Falling behind global competitors as reforms accelerate."
+        score: 40
+    correct_choice: "b"
+    historical_context: "Reliance benefitted from liberalization, scaling operations in petrochemicals and beyond."
+
+  5:
+    year: 2000
+    context: "Reliance has diversified into telecom. Intense competition and capital requirements loom."
+    question: "How do you tackle telecom expansion?"
+    choices:
+      a:
+        text: "Focus on core businesses: textiles and petrochemicals"
+        outcome: "Safe, but lose out on telecom revolution."
+        score: 40
+      b:
+        text: "Aggressively invest in telecom infrastructure"
+        outcome: "Creates a strong foundation for future services."
+        score: 100
+      c:
+        text: "Enter into joint ventures with established telecom players"
+        outcome: "Risk sharing but slower to build an independent brand."
+        score: 70
+    correct_choice: "b"
+    historical_context: "Reliance Infocomm eventually became a major player in India’s telecom sector."
+
+analysis_templates:
+  excellent:
+    text: "You aimed high, embraced new markets, and built trust with retail investors—a hallmark of successful Indian entrepreneurship."
+    principles:
+      - "Broadening ownership fosters brand loyalty"
+      - "Continuous reinvestment drives long-term success"
+      - "Diversification can secure future growth"
+
+  good:
+    text: "A balanced approach with some cautious steps. However, more aggressive expansion into new industries might have further accelerated growth."
+    principles:
+      - "Stay open to emerging opportunities"
+      - "Maintaining a robust relationship with public markets is key"
+      - "Adapt proactively to policy changes"
+
+  needs_improvement:
+    text: "Overly conservative decisions limited your expansion and brand influence. Embrace public markets and diversification more boldly."
+    principles:
+      - "Public listings can spur rapid growth"
+      - "Diversify to hedge against sector volatility"
+      - "Leverage government reforms to innovate"

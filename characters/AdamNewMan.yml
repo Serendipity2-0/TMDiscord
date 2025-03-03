@@ -1,0 +1,135 @@
+name: "Adam Neumann"
+title: "WeWork's Visionary Founder"
+starting_year: 2010
+initial_capital: 500000
+key_principles:
+  - "Reimagine the workplace"
+  - "Go big, go fast"
+  - "Culture and community above all"
+  - "Endless fundraising"
+  - "Disrupt the status quo"
+
+decisions:
+  1:
+    year: 2010
+    context: "You have a bold idea to transform office rentals into vibrant shared workspaces. You need capital to scale up WeWork."
+    question: "What's your initial strategy to launch WeWork?"
+    choices:
+      a:
+        text: "Bootstrap slowly and focus on profitability"
+        outcome: "Slower growth but more stable foundation."
+        score: 60
+      b:
+        text: "Seek massive venture capital investment"
+        outcome: "Fast expansion, but builds high expectations and valuation pressure."
+        score: 100
+        V1Lesson: "Early momentum can snowball, but it also raises the stakes."
+      c:
+        text: "Partner with a large real estate conglomerate"
+        outcome: "Shared control could dilute your vision and brand."
+        score: 40
+    correct_choice: "b"
+    historical_context: "Neumann aggressively pursued VC funding, which led to explosive growth and a lofty valuation."
+
+  2:
+    year: 2014
+    context: "WeWork is scaling rapidly, but the burn rate is high. Investors want to see ambitious expansion to justify the valuation."
+    question: "How do you balance growth and profitability?"
+    choices:
+      a:
+        text: "Double down on real estate acquisitions"
+        outcome: "Secures prime locations but increases debt and monthly burn."
+        score: 40
+      b:
+        text: "Focus on operational efficiency first"
+        outcome: "Slower expansion but stronger unit economics."
+        score: 60
+      c:
+        text: "Pivot into diverse offerings like residential (WeLive)"
+        outcome: "Potential new markets but dilutes the core focus on workspaces."
+        score: 80
+    correct_choice: "c"
+    historical_context: "WeWork explored WeLive, WeGrow, and other expansions, though it scattered focus and capital."
+    V1Lesson: "The best yield for your investment is always to invest in your own company."
+
+  3:
+    year: 2016
+    context: "WeWork's valuation skyrockets, and you’re contemplating expansions into education, health, and more."
+    question: "How do you sustain the brand while expanding?"
+    choices:
+      a:
+        text: "Grow carefully and stick to core coworking model"
+        outcome: "Stable strategy but misses big opportunities."
+        score: 70
+      b:
+        text: "Launch multiple verticals under WeWork brand"
+        outcome: "Builds hype but could lead to overextension."
+        score: 100
+      c:
+        text: "Raise funds specifically for each new vertical"
+        outcome: "Adds complexity in investor relations."
+        score: 60
+    correct_choice: "b"
+    historical_context: "WeWork launched various sub-brands, many of which struggled due to lack of focus."
+
+  4:
+    year: 2018
+    context: "You’re under pressure to go public. The company’s cash burn is enormous, and SoftBank is pushing for massive valuation."
+    question: "How do you manage investor expectations?"
+    choices:
+      a:
+        text: "Push for the highest valuation possible"
+        outcome: "Short-term gain, but intensifies scrutiny on unprofitability."
+        score: 90
+      b:
+        text: "Delay IPO to focus on profitability"
+        outcome: "Less pressure from public markets but continued private burn."
+        score: 70
+      c:
+        text: "Take on strategic investments instead of a traditional IPO"
+        outcome: "Preserves partial control but may still face accountability issues."
+        score: 80
+    correct_choice: "a"
+    historical_context: "WeWork’s push for a sky-high valuation led to intense public scrutiny once IPO documents were filed."
+
+  5:
+    year: 2019
+    context: "The IPO roadshow reveals concerns about corporate governance, leasing model, and personal conflicts of interest."
+    question: "How do you address governance issues before going public?"
+    choices:
+      a:
+        text: "Restructure voting rights and step back from controlling stake"
+        outcome: "Builds trust with investors."
+        score: 100
+      b:
+        text: "Push forward with current governance structure"
+        outcome: "Investor backlash and loss of confidence."
+        score: 20
+      c:
+        text: "Delay the IPO indefinitely"
+        outcome: "Buys time but risks running out of cash."
+        score: 60
+    correct_choice: "a"
+    historical_context: "Adam Neumann faced scrutiny over governance, leading to a collapsed IPO and his eventual resignation."
+
+analysis_templates:
+  excellent:
+    text: "You combined visionary expansion with responsible governance, striking a balance between ambition and sustainability."
+    principles:
+      - "Aim high but respect market realities"
+      - "Ensure strong corporate governance"
+      - "Protect brand integrity during rapid expansion"
+
+  good:
+    text: "Overall, a commendable approach with some missteps in balancing rapid growth and investor expectations."
+    principles:
+      - "Consider pacing growth carefully"
+      - "Stay flexible with market demands"
+      - "Revisit governance frameworks regularly"
+
+  needs_improvement:
+    text: "A very aggressive expansion left too many vulnerabilities. Focus more on stable governance and financial fundamentals."
+    principles:
+      - "Address governance issues proactively"
+      - "Manage investor confidence with clear financials"
+      - "Adapt swiftly when market sentiment changes"

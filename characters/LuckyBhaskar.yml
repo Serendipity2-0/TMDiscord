@@ -1,0 +1,134 @@
+name: "Jordan Belfort"
+title: "The Wolf of Wall Street"
+starting_year: 1987
+initial_capital: 50000
+key_principles:
+  - "Sell anything to anyone"
+  - "Leverage hype for quick gains"
+  - "Train an aggressive sales force"
+  - "Exploit market inefficiencies"
+  - "Push ethical boundaries"
+
+decisions:
+  1:
+    year: 1987
+    context: "You're a young, ambitious stockbroker at a small Wall Street firm, eager to make big money fast."
+    question: "What’s your first move in the stock market?"
+    choices:
+      a:
+        text: "Focus on legitimate blue-chip clients"
+        outcome: "Steady income, but slower growth."
+        score: 60
+      b:
+        text: "Specialize in penny stocks with high commissions"
+        outcome: "Rapid income growth, but high ethical and legal risks."
+        score: 100
+      c:
+        text: "Exit brokerage to start a business in another sector"
+        outcome: "Entrepreneurial path but abandons financial sector gains."
+        score: 40
+    correct_choice: "b"
+    historical_context: "Belfort made a fortune using penny stocks and aggressive sales tactics."
+
+  2:
+    year: 1989
+    context: "You found Stratton Oakmont, an over-the-counter brokerage, training brokers in aggressive selling techniques."
+    question: "How do you fuel growth for Stratton Oakmont?"
+    choices:
+      a:
+        text: "Maintain rigorous compliance standards"
+        outcome: "Slower growth but less legal risk."
+        score: 60
+      b:
+        text: "Push high-pressure sales and cold-calling scripts"
+        outcome: "Explosive growth but invites intense regulatory scrutiny."
+        score: 100
+        V1Lesson: "Sales drive revenue, but unethical tactics can lead to downfall."
+      c:
+        text: "Target institutional clients to avoid retail complications"
+        outcome: "Higher-value deals but less volume."
+        score: 70
+    correct_choice: "b"
+    historical_context: "Stratton Oakmont grew rapidly by selling questionable stocks to unwary retail investors."
+
+  3:
+    year: 1992
+    context: "Your firm is making huge profits. Regulators begin to scrutinize trades for possible manipulation and pump-and-dump schemes."
+    question: "How do you respond to growing regulatory pressure?"
+    choices:
+      a:
+        text: "Institute strict internal compliance"
+        outcome: "May slow trading but reduces legal exposure."
+        score: 80
+      b:
+        text: "Elaborate shell companies to hide activities"
+        outcome: "Temporarily avoids detection but increases criminal risk."
+        score: 30
+      c:
+        text: "Engage top lawyers and continue business as usual"
+        outcome: "Delays regulatory actions but worsens eventual penalties."
+        score: 50
+    correct_choice: "a"
+    historical_context: "Belfort continued with questionable strategies, leading to investigations and indictments."
+
+  4:
+    year: 1994
+    context: "Regulatory investigations intensify, but profits are still high. Partners press you to maintain the same strategies."
+    question: "How do you handle your partners’ demands?"
+    choices:
+      a:
+        text: "Stand firm and overhaul business to meet regulations"
+        outcome: "Short-term profit hit but may save the firm."
+        score: 100
+      b:
+        text: "Give in to their demands to keep profits high"
+        outcome: "Enormous short-term gains but fuels a bigger crash."
+        score: 20
+      c:
+        text: "Sell your stake and exit the business quietly"
+        outcome: "Preserves personal wealth but leaves employees vulnerable."
+        score: 60
+    correct_choice: "a"
+    historical_context: "Belfort continued high-risk activities, ignoring warnings, which ultimately led to the downfall."
+
+  5:
+    year: 1996
+    context: "The FBI is building a case against Stratton Oakmont. You have inside knowledge of potential charges."
+    question: "How do you react?"
+    choices:
+      a:
+        text: "Cooperate with authorities and negotiate a deal"
+        outcome: "Reduces prison time but you must testify against partners."
+        score: 100
+      b:
+        text: "Destroy evidence and deny wrongdoing"
+        outcome: "Severe penalties if caught; high likelihood of conviction."
+        score: 20
+      c:
+        text: "Flee the country before charges are filed"
+        outcome: "Fugitive status, forfeits any chance of negotiating a deal."
+        score: 30
+    correct_choice: "a"
+    historical_context: "Jordan Belfort eventually cooperated with the FBI, leading to reduced sentencing."
+
+analysis_templates:
+  excellent:
+    text: "You managed to generate high sales ethically and avoided criminal entanglements by establishing strong compliance from the start."
+    principles:
+      - "High sales do not excuse unethical behavior"
+      - "Short-term gains must not jeopardize long-term freedom"
+      - "Transparency with regulators is crucial"
+
+  good:
+    text: "You balanced aggressive sales with some caution. Remember that regulatory compliance is essential in finance."
+    principles:
+      - "A strong sales strategy must stay within legal boundaries"
+      - "Heed early regulatory warning signs"
+      - "Plan for sustainable growth, not just immediate profit"
+
+  needs_improvement:
+    text: "Your decisions replicated the very risks that defined Stratton Oakmont’s downfall. Consider legal compliance a top priority."
+    principles:
+      - "Ethical sales practices protect from legal risks"
+      - "Long-term reputation should matter more than quick gains"
+      - "Regulatory bodies have real power—don’t underestimate them"

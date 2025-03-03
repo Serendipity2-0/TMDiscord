@@ -1,0 +1,175 @@
+name: "Vijay Mallya"
+title: "The King of Good Times"
+starting_year: 1983
+initial_capital: 10000000
+key_principles:
+  - "Build strong brands"
+  - "Think big and bold"
+  - "Diversify into multiple businesses"
+  - "Leverage relationships and networking"
+  - "High risk, high reward strategy"
+
+decisions:
+  1:
+    year: 1983
+    context: "At age 28, you've inherited United Breweries from your father. The company has a strong but traditional beer business."
+    question: "What's your first major business decision?"
+    choices:
+      a:
+        text: "Continue traditional management style"
+        outcome: "Missed opportunity to modernize and expand the business."
+        score: 30
+      b:
+        text: "Aggressively modernize and expand"
+        outcome: "Excellent! Transformed UB into India's largest spirits company."
+        score: 100
+        V1Lesson: "The best yield for your investment is always to invest in your own company."
+      c:
+        text: "Sell non-performing assets"
+        outcome: "Lost chance to build India's largest alcoholic beverage empire."
+        score: 40
+    correct_choice: "b"
+    historical_context: "Mallya transformed United Breweries into a modern, aggressive company."
+
+  2:
+    year: 1990
+    context: "Opportunity to acquire Berger Paints, but it requires significant debt."
+    question: "How would you approach this diversification?"
+    choices:
+      a:
+        text: "Acquire using heavy leverage"
+        outcome: "Poor choice. The acquisition led to financial strain and was eventually sold."
+        score: 30
+      b:
+        text: "Form a joint venture instead"
+        outcome: "Better approach that would have preserved capital."
+        score: 100
+      c:
+        text: "Focus on core beverage business"
+        outcome: "Moderate choice, missed diversification but preserved focus."
+        score: 60
+    correct_choice: "b"
+    historical_context: "The leveraged acquisition of Berger Paints became a financial burden."
+    V1Lesson: "The best yield for your investment is always to invest in your own company."
+  3:
+    year: 1995
+    context: "Kingfisher brand is strong in beer. Opportunity to expand into airline business exists."
+    question: "How would you leverage the Kingfisher brand?"
+    choices:
+      a:
+        text: "Stay focused on beverages"
+        outcome: "Safer choice that would have preserved capital and focus."
+        score: 100
+      b:
+        text: "Launch premium airline service"
+        outcome: "Led to massive losses and eventual downfall."
+        score: 30
+      c:
+        text: "Expand into hospitality only"
+        outcome: "Moderate risk but missed core business focus."
+        score: 60
+    correct_choice: "a"
+    historical_context: "The airline venture ultimately led to Mallya's biggest business failure."
+    V1Lesson: "The best yield for your investment is always to invest in your own company."
+  4:
+    year: 2003
+    context: "Opportunity to acquire Shaw Wallace, your biggest competitor in spirits business."
+    question: "What's your acquisition strategy?"
+    choices:
+      a:
+        text: "Full acquisition with debt"
+        outcome: "The high leverage added to future financial stress."
+        score: 40
+      b:
+        text: "Gradual stake building"
+        outcome: "Would have been more sustainable financially."
+        score: 100
+      c:
+        text: "Skip acquisition, focus on organic growth"
+        outcome: "Missed chance to consolidate market leadership."
+        score: 60
+    correct_choice: "b"
+    historical_context: "The leveraged acquisition added to UB Group's debt burden."
+    V1Lesson: "The best yield for your investment is always to invest in your own company."
+  5:
+    year: 2007
+    context: "Kingfisher Airlines is losing money, but Air Deccan is available for acquisition."
+    question: "How do you respond to this opportunity?"
+    choices:
+      a:
+        text: "Acquire Air Deccan to expand market share"
+        outcome: "Disastrous decision that accelerated financial collapse."
+        score: 20
+      b:
+        text: "Focus on making existing airline profitable"
+        outcome: "Better choice but still in troubled sector."
+        score: 60
+      c:
+        text: "Exit airline business entirely"
+        outcome: "Best decision that would have preserved wealth."
+        score: 100
+    correct_choice: "c"
+    historical_context: "The Air Deccan acquisition worsened Kingfisher Airlines' financial crisis."
+
+  6:
+    year: 2010
+    context: "Kingfisher Airlines is deep in debt. Banks are pressuring for repayment."
+    question: "How do you handle the mounting debt crisis?"
+    choices:
+      a:
+        text: "Take more loans to continue operations"
+        outcome: "Led to deeper financial crisis and eventual collapse."
+        score: 20
+      b:
+        text: "Sell assets to repay debt"
+        outcome: "Would have prevented total collapse and legal troubles."
+        score: 100
+      c:
+        text: "Restructure debt with banks"
+        outcome: "Temporary solution that didn't address core issues."
+        score: 50
+    correct_choice: "b"
+    historical_context: "Continued borrowing led to default and legal consequences."
+
+  7:
+    year: 2012
+    context: "Banks have declared Kingfisher Airlines as NPA. Legal pressure mounting."
+    question: "How do you respond to the crisis?"
+    choices:
+      a:
+        text: "Stay in India and face legal process"
+        outcome: "Would have shown accountability and possibly led to resolution."
+        score: 100
+      b:
+        text: "Leave India while maintaining innocence"
+        outcome: "Led to fugitive status and loss of reputation."
+        score: 20
+      c:
+        text: "Declare bankruptcy and restructure"
+        outcome: "Better than fleeing but still avoided responsibility."
+        score: 60
+    correct_choice: "a"
+    historical_context: "Mallya left India in 2016, leading to ongoing legal battles."
+
+analysis_templates:
+  excellent:
+    text: "Your decisions showed strong business acumen and responsible management. Unlike the historical outcome, you demonstrated the importance of sustainable growth over aggressive expansion."
+    principles:
+      - "Maintained focus on core competencies"
+      - "Chose sustainable growth over rapid expansion"
+      - "Demonstrated financial responsibility"
+      - "Showed accountability in crisis"
+
+  good:
+    text: "You showed mixed decision-making, balancing between ambition and prudence. Remember that sustainable growth often beats rapid expansion."
+    principles:
+      - "Generally good business decisions"
+      - "Some room for improvement in risk management"
+      - "Consider long-term consequences more carefully"
+
+  needs_improvement:
+    text: "Your decisions reflected the high-risk approach that led to historical problems. Focus more on sustainable growth and responsible management."
+    principles:
+      - "Review risk management strategies"
+      - "Consider debt implications more carefully"
+      - "Balance ambition with practicality"
